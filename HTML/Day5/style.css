@@ -1,0 +1,17 @@
+/* external css */
+ul{
+    background-color:blanchedalmond;
+    overflow: hidden;
+}
+li{
+    float : left;
+    list-style-type:none;
+}
+li a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+h1{
+    color:blue;
+}
