@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color:blanchedalmond;
+    border: 10px solid red;
+    padding: 60px;
+    margin:30px;
+    height: 4000px;
+
+}
+body{
+    background-color:aqua;
+    border: 5px solid black;
+    padding: 20px;
+
+}
+.parent{
+    background-color:chartreuse;
+    border: 5px solid blue;
+    margin: 30px;
+    padding: 40px;
+
+}
+
+.parent div{
+
+    background-color:deeppink;
+    border: 5px solid violet;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+#child1{
+
+
+
+}
+

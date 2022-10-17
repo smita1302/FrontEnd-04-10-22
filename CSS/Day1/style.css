@@ -1,0 +1,23 @@
+h1{
+    color:blueviolet;
+}
+
+p{
+    background-color:cornflowerblue;
+
+}
+.para{
+    background-color: coral;
+}
+
+/* id>class>element selector */
+#para1{
+
+    background-color:chartreuse;
+    color: white
+
+}
+
+#para3{
+    color:crimson;
+}
