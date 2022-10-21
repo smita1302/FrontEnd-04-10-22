@@ -1,0 +1,46 @@
+h1{
+    color: red;
+}
+
+/* 1. descendant combinator */
+div h1{
+    color: blue;
+
+}
+
+/* 2. child combinator
+*/
+
+div > p{
+    color: violet;
+}
+
+span > p{
+    color: violet;
+
+}
+div span > p{
+    color:brown
+}
+
+
+/* 3. general sibling combinator */
+
+h1 ~ h2{
+    background-color: chartreuse;
+}
+
+
+
+
+/* 3. adjacent sibling combinator */
+
+/* h1 + h2{
+    background-color: blueviolet;
+} */
+
+
+/* div,h1,h2{
+    background-color: bisque;
+}
+ */

@@ -1,0 +1,30 @@
+/* .gradi{
+    background-image: radial-gradient(red 10%,blue,yellow 60%);
+    height: 600px;
+
+} */
+/* .gradi{
+    background-image: radial-gradient(red,blue,green,aqua,yellow);
+    height: 600px;
+
+} */
+/* .gradi{
+    background-image: linear-gradient(to top left,red,blue,green,aqua,yellow);
+    height: 600px;
+
+} */
+.gradi{
+    background: linear-gradient(to bottom,red,blue,green,aqua,yellow);
+    height: 600px;
+
+}
+/* .gradi{
+    background-image: linear-gradient(120deg,red,blue,green,aqua,yellow);
+    height: 600px;
+
+} */
+
+h1{
+    background: linear-gradient(to right, violet,green);
+    background-clip:text;
+}
