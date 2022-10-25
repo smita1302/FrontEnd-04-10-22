@@ -1,0 +1,32 @@
+.children{
+    width: 200px;
+    height: 200px;
+}
+
+#child1{
+    border: 2px solid black;
+    background-color: blueviolet;
+    position:relative;
+    top:160px;
+    left:40px;
+    z-index:5;
+   /*  display: none;
+    visibility: hidden; */
+
+}
+#child2{
+    border: 2px solid black;
+    background-color: chartreuse;
+    position:relative;
+    top:80px;
+    left:60px;
+    z-index:-1;
+}
+#child3{
+    border: 2px solid black;
+    background-color: coral;
+    position:relative;
+    top:0px;
+    left:80px;
+    z-index:1000;
+}
